@@ -21,6 +21,7 @@
 - _Photoshop (7/10)_
 - _Webpack (4/10)_
 - _React.js (2/10)_
+- _Node.js (1/10)_
 
 ### Education:
 
