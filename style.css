@@ -6,6 +6,10 @@
   border: 0;
   box-sizing: border-box;
 }
+a {
+  text-decoration: none;
+  color: rgb(56, 54, 54);
+}
 body {
   font-family: "Open Sans", sans-serif;
 }
@@ -73,4 +77,54 @@ section {
 
 .contacts h3 {
   padding: 0 35px 0 0;
+}
+
+.skill {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.skills {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.skills p {
+  padding: 0 70px;
+}
+.skills p span {
+  color: orangered;
+  padding: 10px 15px;
+}
+
+.languages {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.languages p {
+  padding: 0 70px;
+}
+
+.languages p span {
+  color: orangered;
+  padding: 10px 15px;
+}
+.experience {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.work {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.education {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.period {
+  padding: 10px 45px;
 }
