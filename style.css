@@ -127,4 +127,12 @@ section {
 }
 .period {
   padding: 10px 45px;
+  color: rgb(62, 63, 63);
+}
+.company {
+  color: orangered;
+  padding: 5px 0;
+}
+.company span {
+  color: black;
 }
