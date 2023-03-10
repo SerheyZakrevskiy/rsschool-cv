@@ -1,0 +1,138 @@
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+  color: rgb(56, 54, 54);
+}
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+section {
+  max-width: 920px;
+  padding: 15px 100px;
+  margin: 0 auto;
+  background-color: rgb(217, 233, 249);
+}
+
+.main-photo {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+.name {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  position: absolute;
+  padding: 100px 0 0 0;
+}
+.name h1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  line-height: 15px;
+  letter-spacing: 1px;
+  padding: 15px 0;
+  font-size: 35px;
+}
+.name h2 {
+  padding: 25px 0;
+}
+.about {
+  max-width: 410px;
+  margin: -150px -75px;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+}
+.about h3 {
+  padding: 15px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.about p {
+  padding: 0 0 0 20px;
+}
+.my-photo {
+  width: 300px;
+  height: 450px;
+  border-radius: 50%;
+}
+
+.contacts {
+  padding: 20px 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.contacts h3 {
+  padding: 0 35px 0 0;
+}
+
+.skill {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.skills {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.skills p {
+  padding: 0 70px;
+}
+.skills p span {
+  color: orangered;
+  padding: 10px 15px;
+}
+
+.languages {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.languages p {
+  padding: 0 70px;
+}
+
+.languages p span {
+  color: orangered;
+  padding: 10px 15px;
+}
+.experience {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.work {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.education {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.period {
+  padding: 10px 45px;
+  color: rgb(62, 63, 63);
+}
+.company {
+  color: orangered;
+  padding: 5px 0;
+}
+.company span {
+  color: black;
+}
